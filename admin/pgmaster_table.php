@@ -99,7 +99,7 @@ if (isset($_GET['did'])) {
                                                     <td>" . $row['category_id'] . "</td>
                                                     <td>" . $row['owner_id'] . "</td>
                                                     <td>
-                                                        <a href='edit-package-master.php?id=" . $row['pg_id'] . "'>Edit</a> |
+                                                       <a href='edit-package-master.php?id=" . $row['pg_id'] . "'>Edit</a> |
                                                         <a href='?did=" . $row['pg_id'] . "'>Delete</a>
                                                     </td>
                                                 </tr>";
